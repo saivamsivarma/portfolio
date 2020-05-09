@@ -1,0 +1,43 @@
+.col-lg-6
+{
+    margin-top: 4rem;
+}
+
+
+@media only screen and (max-width: 1000px)
+{
+    .col-lg-6{
+        margin-top:1rem
+    }
+    .dec
+    {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 375px)
+{
+    h1
+    {
+        font-size: 2rem;
+    }
+
+    .dec
+    {
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 320px)
+{
+    h1
+    {
+        font-size: 1.5rem;
+        margin-bottom:1rem;
+    }
+
+    .dec
+    {
+        text-align: justify;
+    }
+}

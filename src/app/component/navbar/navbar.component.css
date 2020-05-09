@@ -1,0 +1,155 @@
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10% 5px;
+    background-color: transparent;
+  }
+  
+  .logo {
+    cursor: pointer;
+  }
+  
+  .nav__links a{
+    font-weight: 500;
+    color: #3366FF;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+  }
+  
+  
+  .cta {
+    padding: 9px 25px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #3366FF !important;
+    z-index: 5;
+  }
+  
+  .cta:hover {
+    text-decoration: none;
+  }
+  
+
+  .menu {
+  display: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  top: 0;
+  background-color: #3366FF;
+  overflow-x: hidden;
+  transition: all 0.5s ease 0s;
+}
+
+.overlay__content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay a {
+  padding: 15px;
+  font-size: 36px !important;
+  display: block;
+  transition: all 0.3s ease 0s;
+}
+
+
+.overlay .close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 60px;
+}
+
+@media only screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 18px !important;
+  }
+  .overlay .close {
+    top: 15px;
+    right: 35px !important;
+  }
+
+}
+
+@media only screen and (max-height: 360px)
+{
+  .overlay a {
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (max-width: 1024px)
+{
+  .cta
+  {
+    background-color: #3366FF;
+    color:#ffffff !important;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .nav__links,
+  .cta {
+    display: none;
+  }
+  .menu {
+    display: initial;
+  }
+  .overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    font-size: 60px;
+  }
+  
+ 
+}
+
+.sticky
+{
+  background-color:#ffffff;
+  box-shadow: 0 3px 12px 0 rgba(0, 0,0,.08);
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 10;
+}
+.sticky .menu{
+  color:#3366FF;
+}
+
+.sticky .cta
+{
+  background-color: #3366FF;
+  color: #ffffff !important;
+  margin-top: -10px;
+}

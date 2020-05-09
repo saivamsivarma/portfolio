@@ -1,0 +1,62 @@
+.about-text
+{
+    width: 80%;
+    text-align: justify;
+    margin-top: 5rem;
+}
+
+.btn-ctn
+{
+    border: 1px solid #3366FF;
+    border-radius:50px;
+}
+
+.btn-color
+{
+    margin-right: 5rem;
+}
+
+
+@media only screen and (max-width: 1000px)
+{
+    h3
+    {
+        text-align: center;
+    }
+    .about-text
+    {
+        margin-top: 2rem;
+        width: 100%;
+        text-align: justify;
+    }   
+
+    .btn-color
+    {
+    margin-right: 7rem;
+    }
+ 
+}
+
+@media only screen and (max-width: 375px)
+{
+    .btn
+    {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 320px)
+{
+    h3
+    {
+        font-size: 1.2rem;
+    }
+    p
+    {
+        font-size: 0.8rem;
+    }
+    .btn
+    {
+        font-size: 0.6rem;
+    }
+}

@@ -1,0 +1,78 @@
+.social-links
+{
+  list-style: none;
+}
+
+.social-links li{
+  padding: 6% 0%;
+  font-size: 2rem;
+  color: #3366FF;
+  margin-right: auto;
+}
+
+input,textarea
+{
+  caret-color: #3366FF;
+  color: #3366FF;
+}
+
+
+.details,.col-lg-6
+{
+  margin-top:4rem
+}
+
+@media only screen and (max-width: 1000px)
+{
+  .col-lg-6,.details
+{
+  margin-top:1rem
+}
+
+}
+
+@media only screen and (max-width: 375px)
+{
+  h1{
+    font-size: 1.5rem;
+  }
+  label
+  {
+    font-size: 0.8rem;
+  }
+  span
+  {
+    font-size: 0.8rem;
+  }
+}
+
+
+@media only screen and (max-width: 375px)
+{
+  h1{
+    font-size: 1.5rem;
+  }
+  label
+  {
+    font-size: 0.8rem;
+  }
+  span
+  {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 320px)
+{
+  h1{
+    font-size: 1.2rem;
+  }
+  label
+  {
+    font-size: 0.6rem;
+  }
+  span
+  {
+    font-size: 0.6rem;
+  }
+}

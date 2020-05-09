@@ -1,0 +1,23 @@
+.card
+{
+
+        width: 235px;
+        height: 235px;
+        border-radius: 50%;
+        margin: 5rem 0;
+}
+
+@media only screen and (max-width: 1000px)
+{
+        .card
+        {
+                margin:4rem auto; 
+        }
+}
+@media only screen and (max-width: 411px)
+{
+        .card
+        {
+                margin:2rem auto; 
+        }
+}

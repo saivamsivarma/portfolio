@@ -1,0 +1,31 @@
+
+<header id="navbar-sticky">
+    <a class="logo p-2" routerLink="portfolio"><img src="../../../assets/logo.svg" alt="logo" height=50rem></a>
+    <nav>
+        <ul class="nav__links">
+            <li><a (click)="Home()">Home</a></li>
+            <li><a (click)="Aboutme()">AboutMe</a></li>
+            <li><a (click)="Skills()">Skill</a></li>
+            <li><a (click)="Education()">Education</a></li>
+            <li><a (click)="Project()">Project</a><br></li>
+        </ul>
+    </nav>
+    <a class="cta" (click)="Contact()">Contact</a>
+        <div class="p-3 menu" (click)="opennav()">
+            <fa-icon [icon]="faAlignRight"></fa-icon>
+        </div>
+</header>
+<div id="mobile__menu" class="overlay" [style.width]="show === true ? '60%' : '0'">
+    <a (click)="opennav()" class="close float-right"><img  src="/assets/close.svg"  height=25rem width=30.5rem></a>
+    <div class="overlay__content">
+        <a (click)="toHome()">Home</a>
+        <a (click)="toAboutme()">AboutMe</a>
+        <a (click)="toSkills()">Skill</a>
+        <a (click)="toEducation()">Education</a>
+        <a (click)="toProject()">Project</a>
+        <a (click)="toContact()">Contact</a>
+    </div>
+</div>
+
+
+    

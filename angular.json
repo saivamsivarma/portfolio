@@ -24,9 +24,12 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/aos/dist/aos.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/aos/dist/aos.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "portfolio-vamsi"
+    }
+  },
+  "defaultProject": "portfolio-vamsi",
+  "cli": {
+    "analytics": "f57ba5cd-4f22-4f4b-b056-8d781ed1c875"
+  }
 }
