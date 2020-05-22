@@ -3,6 +3,11 @@
 {
   padding-right: 3rem;
 }
+/*.container-fluid
+{
+  margin-top:-42rem;
+  z-index:99;
+}*/
 .social-links
 {
   list-style: none;
@@ -217,7 +222,7 @@
 }
 
 
-@media only screen and (max-width: 1024px)
+@media screen and (max-width: 1024px)
 {
   .rotate
   {
@@ -230,9 +235,13 @@
   .mouse_scroll {
     margin-top:-4rem
   }
+
+  .details{
+    margin-left: -2rem;
+  }
 }
 
-@media only screen and (max-width: 768px)
+@media screen and (max-width: 768px)
 {
  *{
    color: #ffffff;
@@ -305,7 +314,7 @@ p{
 
 }
 
-@media only screen and (max-width: 375px)
+@media screen and (max-width: 375px)
 {
   h1
   {
@@ -314,7 +323,7 @@ p{
 
 }
 
-@media only screen and (max-width: 320px)
+@media screen and (max-width: 320px)
 {
 
   
