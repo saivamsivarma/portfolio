@@ -3,11 +3,11 @@
     <a class="logo p-2" routerLink="portfolio"><img src="../../../assets/logo.svg" alt="logo" height=50rem></a>
     <nav>
         <ul class="nav__links">
-            <li><a (click)="Home()">Home</a></li>
-            <li><a (click)="Aboutme()">AboutMe</a></li>
-            <li><a (click)="Skills()">Skill</a></li>
-            <li><a (click)="Education()">Education</a></li>
-            <li><a (click)="Project()">Project</a><br></li>
+            <li><a (click)="Home()" routerLinkActive="activeLink">Home</a></li>
+            <li><a (click)="Aboutme()" routerLinkActive="activeLink">AboutMe</a></li>
+            <li><a (click)="Skills()" routerLinkActive="activeLink">Skill</a></li>
+            <li><a (click)="Education()" routerLinkActive="activeLink">Education</a></li>
+            <li><a (click)="Project()" routerLinkActive="activeLink">Project</a><br></li>
         </ul>
     </nav>
     <a class="cta" (click)="Contact()">Contact</a>
@@ -15,7 +15,7 @@
             <fa-icon [icon]="faAlignRight"></fa-icon>
         </div>
 </header>
-<div id="mobile__menu" class="overlay" [style.width]="show === true ? '60%' : '0'">
+<div id="mobile__menu" class="overlay" [style.width]="show === true ? '100%' : '0'">
     <a (click)="opennav()" class="close float-right"><img  src="/assets/close.svg"  height=25rem width=30.5rem></a>
     <div class="overlay__content">
         <a (click)="toHome()">Home</a>
